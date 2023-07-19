@@ -1,0 +1,103 @@
+body{
+  overflow-x: hidden;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px
+}
+.nav-ul{
+  margin: 0;
+  padding: 5px;
+  background-color: skyblue;
+}
+.nav-ul li a{
+  text-decoration: none;
+  color: white;
+}
+.nav-right{
+  text-align: right;
+}
+.register,.product{
+  margin-left: 30%;
+}
+.login{
+  margin-top: 100px;
+  margin-left: 30%;
+}
+.btn{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+#name,#email,#password{
+  display: block;
+  margin: 25px;
+padding: 7px;
+width:300px;
+border: 1px solid lightblue;
+}
+.name{
+  display: block;
+  margin: 25px;
+padding: 7px;
+width:300px;
+border: 1px solid lightblue;
+
+}
+.foot{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100vw;
+  padding: 10px;
+  background-color: skyblue;
+}
+
+.logo{
+  width: 46px;
+  height: 46px;
+float: left;
+border-radius: 50%;
+margin-top: 3px;
+margin-left: 20px;
+margin-right: 10px;
+}
+
+.error{
+  color: red;
+  margin-top: -20px;
+  margin-left: 26px;
+  display: block;
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid lightskyblue;
+  width: 120px;
+  padding: 5px;
+}
+.product-list ul{
+  margin: 0;
+}
+
+.button{
+  border-radius: 4px;
+  background-color:rgb(223, 54, 54);
+  color: whitesmoke;
+}
+.inputproduct{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
